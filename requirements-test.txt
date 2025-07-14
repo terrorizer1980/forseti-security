@@ -1,7 +1,8 @@
 # End-to-end test requirements
-protobuf==3.13.0
+protobuf==4.25.8
 grpcio==1.30.0
 grpcio-tools==1.30.0
 google-cloud-securitycenter==0.6.0
 google-cloud-storage==1.25.0
 pytest==5.3.3
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
